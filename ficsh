@@ -1,0 +1,22 @@
+_G.Settings = {
+    ["AfkCheckTime"] = 300, -- Seconds
+    ["EquipRod"] = "Auto", -- Trident Rod, Destiny Rod,... Rod
+    ["SellFish"] = {
+        ["SellDelay"] = 100, -- Seconds
+        ["Enable"] = true,
+        ["Method"] = {
+            ["Event"] = true,
+            ["Enchant"] = true,
+            ["Mythical"] = true,
+            ["Legendary"] = true,
+            ["Exotic"] = true
+        }
+    },
+    ['Rod'] = {
+        ['Trident Rod'] = true,
+        ['Destiny Rod'] = true
+    },
+    ['MethodShake'] = "Fast", -- Fast, Fix bug
+    ["FpsBoost"] = false,
+    ["Black_Screen"] = true
+}
